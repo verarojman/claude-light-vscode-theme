@@ -1,12 +1,23 @@
 {
-  "name": "claude-light-vscode-theme",
+  "name": "claude-light-theme",
+  "displayName": "Claude Light",
+  "description": "A warm, cream-colored theme inspired by Claude.ai",
   "version": "1.0.0",
-  "engines": { "vscode": "^1.60.0" },
+  "publisher": "verarojman",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Themes"],
   "contributes": {
     "themes": [{
       "label": "Claude Light",
       "uiTheme": "vs",
       "path": "./themes/claude-light.json"
     }]
+  },
+  "keywords": ["theme", "light", "claude", "warm", "cream"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/verarojman/claude-light-vscode-theme"
   }
 }
